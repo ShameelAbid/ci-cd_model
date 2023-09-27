@@ -4,8 +4,6 @@ import pandas as pd
 
 app = Flask(__name__)
 
-
-
 with open('model_and_encoders.pkl', 'rb') as model_file:
     pickle_file = pickle.load(model_file)
 
