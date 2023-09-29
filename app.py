@@ -8,6 +8,7 @@ with open('model_and_encoders.pkl', 'rb') as model_file:
     pickle_file = pickle.load(model_file)
 
 
+
 model = pickle_file['model']
 label_encoders = pickle_file['label_encoders']
 scaler = pickle_file['scale']
